@@ -1,0 +1,28 @@
+{
+	"name": "rahpt/cli-crud",
+	"description": "Cli-Crud is an extension of CodeIgniter4 spark CLI. It will help you generate template files more quickly when developing projects with CodeIgniter4",
+	"type": "library",
+	"keywords": [
+		"codeigniter",
+		"codeigniter4",
+		"cli",
+		"commands",
+		"crud"
+	],	
+	"require": {
+		"php": "^7.2"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "RahPT",
+			"email": "cli-crud@rah.pt"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"rahpt\\": "src/"
+		}
+	}
+}

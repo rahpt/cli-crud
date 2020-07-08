@@ -3,7 +3,6 @@
 namespace rahpt\Commands;
 
 use CodeIgniter\CLI\CLI;
-use CodeIgniter\CLI\BaseCommand;
 
 /**
  * CliCrud
@@ -13,16 +12,7 @@ use CodeIgniter\CLI\BaseCommand;
  *
  * @author jose.proenca
  */
-class CliCrud extends BaseCommand
+class CliCrud
 {
-
-	protected $group		 = 'crud';
-	protected $name			 = 'crud:info';
-	protected $description	 = 'Displays basic application information.';
-
-	public function run(array $params)
-	{
-		
-	}
 
 }

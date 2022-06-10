@@ -10,7 +10,8 @@
 		"crud"
 	],	
 	"require": {
-		"php": "^7.2"
+		"php": "^7.4",
+		"codeigniter": "^4"
 	},
 	"license": "MIT",
 	"authors": [
@@ -19,7 +20,6 @@
 			"email": "cli-crud@rah.pt"
 		}
 	],
-	"minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
 			"rahpt\\": "src/"
